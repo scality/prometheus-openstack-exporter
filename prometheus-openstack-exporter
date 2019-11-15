@@ -30,7 +30,7 @@ from os import rename, path
 import traceback
 import urlparse
 from threading import Thread
-import pickle
+import cPickle as pickle
 import requests
 from time import sleep, time
 from neutronclient.v2_0 import client as neutron_client
